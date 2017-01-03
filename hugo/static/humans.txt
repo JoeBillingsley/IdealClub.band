@@ -4,8 +4,11 @@
 # TEAM
 
     Joseph Billingsley -- Developer -- @JosephBillingsley
+    Patrick Morton -- 
 
 # THANKS
+    
+    jbrodriguez for Hugulp -- https://github.com/jbrodriguez/hugulp
 
 # TECHNOLOGY COLOPHON
 
