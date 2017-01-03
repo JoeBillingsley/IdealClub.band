@@ -1,3 +1,5 @@
 title = "Ideal Club"
 baseurl = "IdealClub.band"
 languageCode = "en-us"
+baseURL = "http://idealclub.band"
+canonifyURLs = true
