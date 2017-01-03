@@ -1,0 +1,75 @@
+@import "partials/colours";
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $secondary;
+}
+
+#hero {    
+    background-color: $accent;
+    height: 100vh;
+    
+    position: relative;
+    
+    img {
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+    }
+}
+
+nav {
+    overflow: hidden;
+    text-align: center;
+    
+    background-color: transparentize(lighten($secondary, 5%), 0.3);
+}
+
+.navbar-links {
+    list-style: none;
+}
+
+.navbar-item {
+    position: relative;
+    float: left;
+    width: 33%;
+        
+    margin-bottom: 0;
+}
+
+.navbar-link {
+    color: $white;
+        
+    font-size: 2.0rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navbar-link:hover {
+    color: $accent;
+    border-bottom: 2px solid $accent;
+}
+
+#news {
+    max-width: 100%;    
+}
+
+#gigs {
+    padding-top: 30px;
+    color: white;
+    background-color: black;
+}
+
+.tbl-center {
+    text-align: center;
+}
+
+.tbl-right {
+    text-align: right;
+}
